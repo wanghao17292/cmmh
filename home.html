@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./pintuer/pintuer.css">
     <script src="./js/jquery.js"></script>
     <script src="./pintuer/pintuer.js"></script>
+    <link rel="stylesheet" href="./css/home.css">
     <script src="./js/respond.js"></script>
 </head>
 <body>
-<div>
+<div class="home">
     <div class="container">
         <div class="line">
             <div class="x8">提示</div>
@@ -60,8 +61,8 @@
                         <div class="input-group padding-little-top">
                             <input type="text" class="input" name="keywords" size="30" placeholder="关键词"/>
                             <span class="addbtn">
-                        <button type="button" class="button bg">
-                            搜!</button></span>
+                            <button type="button" class="button bg">
+                                搜!</button></span>
                         </div>
                     </form>
                 </div>
@@ -76,113 +77,278 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container modules3">
         <div class="line">
-            <div class="x7">
-                轮播图
+            <div class="x7 banner_box">
+                <div class="banner" data-pointer="0">
+                    <div class="carousel" >
+                        <div class="item">
+                            <img src="./images/banner.png" alt="">
+                            <p class="eps">12324123241412324</p>
+                        </div>
+                        <div class="item">
+                            <img src="./images/banner.png" alt="">
+                            <p class="eps">56</p>
+                        </div>
+                        <div class="item">
+                            <img src="./images/banner.png" alt="">
+                            <p class="eps">345</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="x5">
-                <h6>教育新闻 - 校园新闻</h6>
-                <div class="line">
-                    <div class="x12">
-                        教育新闻 - 校园新闻 》》 内容
+                <div class="tab" data-toggle="click">
+                    <div class="tab-head">
+                        <ul class="tab-nav">
+                            <li class="active"><a href="#tab-start2">教育新闻</a></li>
+                            <li><a href="#tab-css2">校园新闻</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-body tab-body-bordered">
+                        <div class="tab-panel active" id="tab-start2">
+                            教育新闻
+                        </div>
+                        <div class="tab-panel" id="tab-css2">
+                            校园新闻
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container modules4">
         <div class="line">
-            <div class="x8">
-                <div class="x2">一网通办</div>
-                <div class="x2">我要约</div>
-                <div class="x2">我要办</div>
-                <div class="x2">我要查</div>
-                <div class="x2">我要评</div>
-                <div class="x2">我要查</div>
+            <div class="x8  border-left border-middle left-box border-main">
+                <div class="x2 ">
+                    <div class="item itemp0">
+                        <p>一网</p>
+                        <p>通办</p>
+                    </div>
+                </div>
+                <div class="x2 ">
+                    <div class="item itemp1">
+                        <img src="./images/card/1.png" alt="" width="30">
+                        <h6>我要约</h6>
+                    </div>
+                </div>
+                <div class="x2 ">
+                    <div class="item itemp2">
+                        <img src="./images/card/2.png" alt="" width="30">
+                        <h6>我要办</h6>
+                    </div>
+                </div>
+                <div class="x2 ">
+                    <div class="item itemp3">
+                        <img src="./images/card/3.png" alt="" width="30">
+                        <h6>我要查</h6>
+                    </div>
+                </div>
+                <div class="x2 ">
+                    <div class="item itemp4">
+                        <img src="./images/card/4.png" alt="" width="30">
+                        <h6>我要评</h6>
+                    </div>
+                </div>
+                <div class="x2 ">
+                    <div class=" item itemp5">
+                        <img src="./images/card/5.png" alt="" width="30">
+                        <h6>我要查</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="x4  right-box  border-left">
+                <div class="x6">
+                    <div class=" item itemp1">
+                        <img src="./images/card/6.png" alt="" width="35">
+                        <h6>个人办事</h6>
+                    </div>
+                </div>
+                <div class="x6">
+                    <div class=" item itemp2">
+                        <img src="./images/card/7.png" alt="" width="35">
+                        <h6>法人办事</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container  modules5">
+        <div class="line">
+            <div class="x8 left-box">
+                <div class="border-bottom">
+                    <h5 class="border-top border-main border-small">政务公开</h5>
+                </div>
+                <div class="x12">
+                    <div class="x8">
+                        <ul class="list-group">
+                            <li class="list-text">
+                                <span class="date">2015-1-1</span>
+                                <p>南非校长访问团75名师生来崇明进行友好交流和访问</p>
+                            </li>
+                            <li class="list-text">
+                                <span class="date">2015-1-1</span>
+                                <p>召开“不忘初心、牢记使命”主题教育调研成果交流会</p>
+                            </li>
+                            <li class="list-text">
+                                <span class="date">2015-1-1</span>
+                                <p>召开“不忘初心 牢记使命”主题调研反馈会</p>
+                            </li>
+                            <li class="list-text">
+                                <span class="date">2015-1-1</span>
+                                <p>推进公办初中“强校工程”项目</p>
+                            </li>
+                            <li class="list-text">
+                                <span class="date">2015-1-1</span>
+                                <p>崇明区教育局2019年“戏曲进校园”活动</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="x4">
+                        <button class="button bg-gray radius-none  button-block">招生考试</button>
+                        <button class="button bg-gray radius-none  button-block">基础教育</button>
+                        <button class="button bg-gray radius-none  button-block">学前教育</button>
+                        <button class="button bg-gray radius-none  button-block">教育督导</button>
+                        <button class="button bg-gray radius-none  button-block">教育人事</button>
+                        <button class="button bg-gray radius-none  button-block">财政信息</button>
+                    </div>
+                </div>
+                <div class="x12">
+                    <img src="./images/publicity.png" alt="">
+                </div>
             </div>
             <div class="x4">
-                <div class="x6">个人办事</div>
-                <div class="x6">法人办事</div>
+                <div class="border-bottom">
+                    <h5 class="border-top border-main border-small">公示公告</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>南非校长访问团75名师生来崇明进行</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>召开“不忘初心、牢记使命”主题</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>人民满意的优质教育暨贯彻崇明区</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>召开“不忘初心 牢记使命”主题</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>推进公办初中“强校工程”项目</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>2019年“戏曲进校园”活动</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>人民满意的优质教育暨贯彻崇明区</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>人民满意的优质教育暨贯彻崇明区</p>
+                    </li>
+                    <li class="list-text">
+                        <span class="date">2015-1-1</span>
+                        <p>推进公办初中“强校工程”项目</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="line">
-            <div class="x8">
-                <h6>政务公开</h6>
+    <div class="container modules6">
+        <div class="line left-box">
+            <div class="x8 ">
+                <div class="border-bottom">
+                    <h5 class="border-top border-main border-small">公共服务</h5>
+                </div>
+                <div class="line modules_sub">
+                    <div class="x3">
+                        <div class=" item itemp1">
+                            <img src="./images/common/1.png" alt="" width="38">
+                            <h6>区内教育机构</h6>
+                        </div>
+                    </div>
+                    <div class="x3">
+                        <div class=" item itemp2">
+                            <img src="./images/common/2.png" alt="" width="38">
+                            <h6>民办教育机构</h6>
+                        </div>
+                    </div>
+                    <div class="x3">
+                        <div class=" item itemp3">
+                            <img src="./images/common/3.png" alt="" width="38">
+                            <h6>意见征询</h6>
+                        </div>
+                    </div>
+                    <div class="x3">
+                        <div class=" item itemp4">
+                            <img src="./images/common/4.png" alt="" width="38">
+                            <h6>常见问题解答</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="x4">
+                <div class="border-bottom">
+                    <h5 class="border-top border-main border-small">领导邮箱</h5>
+                </div>
                 <div class="line">
-                    <div class="x8">
-                        <div class="list-text">
-                            <span class="date">2015-1-1</span>
-                            <p>南非校长访问团75名师生来崇明进行友好交流和访问</p>
-                        </div>
-<!--                        <p>召开“不忘初心、牢记使命”主题教育调研成果交流会</p>-->
-<!--                        <p>人民满意的优质教育暨贯彻崇明区教育大会精…</p>-->
-<!--                        <p>召开“不忘初心 牢记使命”主题调研反馈会</p>-->
-<!--                        <p>推进公办初中“强校工程”项目</p>-->
-<!--                        <p>崇明区教育局2019年“戏曲进校园”活动</p>-->
-
-                        <div class="x4">
-                            <ul>
-                                <li>招生考试</li>
-                                <li>基础教育</li>
-                                <li>学前教育</li>
-                                <li>教育督导</li>
-                                <li>教育人事</li>
-                                <li>财政信息</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="line">
-                        <div class="x12">
-                            教育改革发展重点工作（图片）
-                        </div>
-                    </div>
+                    <button class="button bg-gray radius-none  button-block">领导信箱</button>
+                    <button class="button bg-gray radius-none  button-block">办理统计</button>
+                    <button class="button bg-gray radius-none  button-block">信访查询</button>
                 </div>
-                <div class="x4">
-                    <h6>公示公告</h6>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="line">
-                <div class="x8">
-                    <h6>公共服务</h6>
-                    <div class="line">
-                        <div class="x3">区内教育机构</div>
-                        <div class="x3">民办教育机构</div>
-                        <div class="x3">意见征询</div>
-                        <div class="x3">常见问题解答</div>
-                    </div>
-                </div>
-                <div class="x4">
-                    <h6>领导邮箱</h6>
-                    <div class="line">
-                        <div class="x12">领导信箱</div>
-                        <div class="x12">办理统计</div>
-                        <div class="x12">信访查询</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="line">
-                <div class="x12">
-                    各市部门网站 | 各区政府网站 |本区政府网站 | 乡镇政府网站
-                </div>
-            </div>
-            <div class="line">
-                <div class="x3"></div>
-                <div class="x4">
-                    <p>上海市崇明政府网 版权所有 ©2019 www.shcm.gov.cn All Rights Reserved</p>
-                    <p>崇明区人民政府 地址：崇明区城桥镇人民路68号 邮编：202150 电话：59622324</p>
-                    <p>沪ICP备05014803 备案图标 沪公网安备 31023002000215号 | 政府网站标识码：3102300050</p>
-                    <p>建议使用 IE 9.0 及以上版本</p>
-                </div>
-                <div class="x3">底部导航</div>
             </div>
         </div>
     </div>
+    <div class=" modules7">
+        <div class="con-top">
+            <div class="container">
+                <div class="line ">
+                    <div class="x3">
+                        <p>各市部门网站 <img src="./images/tip.png" alt="" width="12"></p>
+                    </div>
+                    <div class="x3">
+                        <p>各区政府网站 <img src="./images/tip.png" alt="" width="12"></p>
+                    </div>
+                    <div class="x3">
+                        <p>本区政府网站 <img src="./images/tip.png" alt="" width="12"></p>
+                    </div>
+                    <div class="x3">
+                        <p>乡镇政府网站 <img src="./images/tip.png" alt="" width="12"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" con-bottom">
+            <div class="container">
+                <div class="line">
+                    <div class="x3 con-left">
+                        <a href="#"><img src="./images/footer/1.png" width="43"/></a>
+                        <a href="#"><img src="./images/footer/2.png" width="43"/></a>
+                        <a href="#"><img src="./images/footer/3.png" width="43"/></a>
+                    </div>
+                    <div class="x6 con-center">
+                        <p>上海市崇明政府网 版权所有 ©2019 www.shcm.gov.cn All Rights Reserved</p>
+                        <p>崇明区人民政府 地址：崇明区城桥镇人民路68号 邮编：202150 电话：59622324</p>
+                        <p>沪ICP备05014803 <a href="#"><img src="./images/footer/4.png" width="18"/> 备案图标 沪公网安备
+                            31023002000215号</a> |
+                            政府网站标识码：3102300050</p>
+                        <p>建议使用 IE 9.0 及以上版本</p>
+                    </div>
+                    <div class="x3 con-right">
+                        <img src="./images/footer/5.png" width="45"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
