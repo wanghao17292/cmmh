@@ -173,6 +173,9 @@ body {
     margin-bottom: 25px;
     background: #fff;
 }
+.modules4 a{
+    color:#fff;
+}
 
 .modules4 .left-box {
     width: 640px;
@@ -315,6 +318,10 @@ body {
     border: none;
     margin-bottom: 8px;
     background: #f5f5f5;
+    padding:0;
+}
+.modules5 .button:hover{
+    background: #e5e5e5;
 }
 
 .modules5 .left-box {
@@ -334,6 +341,12 @@ body {
 
 .modules5 .left-box .left-content-btn {
     width: 180px;
+}
+.modules5 .left-box .left-content-btn a{
+    display: block;
+    height: 30px;
+    padding:6px 15px;
+    color: #0068c6;
 }
 
 .modules5 .right-box {
@@ -357,6 +370,7 @@ body {
     background: #fff;
 }
 
+
 .modules6 h5 {
     display: inline-block;
     width: 110px;
@@ -366,6 +380,16 @@ body {
     font-size: 16px;
     color: #333;
 }
+
+.home .modules6 a{
+    color: #fff;
+}
+
+.home .modules6 h5 a{
+    color: #333;
+}
+
+
 
 .modules6 > div {
     height: 100%;
@@ -422,22 +446,22 @@ body {
 }
 
 .modules6 .left-box .itemp1 {
-    background: url('../images/common/1_bg.png') no-repeat center;
+    background: url('../../images/jyj/common1_bg.png') no-repeat center;
     background-size: cover;
 }
 
 .modules6 .left-box .itemp2 {
-    background: url('../images/common/2_bg.png') no-repeat center;
+    background: url('../../images/jyj/common2_bg.png') no-repeat center;
     background-size: cover;
 }
 
 .modules6 .left-box .itemp3 {
-    background: url('../images/common/3_bg.png') no-repeat center;
+    background: url('../../images/jyj/common3_bg.png') no-repeat center;
     background-size: cover;
 }
 
 .modules6 .left-box .itemp4 {
-    background: url('../images/common/4_bg.png') no-repeat center;
+    background: url('../../images/jyj/common4_bg.png') no-repeat center;
     background-size: cover;
 }
 
@@ -478,7 +502,6 @@ body {
 }
 
 .modules7 .con-top {
-    min-width: 1060px;
     height: 50px;
     padding-top: 14px;
     box-sizing: border-box;
@@ -491,7 +514,6 @@ body {
 }
 
 .modules7 .con-bottom {
-    min-width: 1060px;
     height: 165px;
     padding-top: 25px;
     background: #1a5c1a;

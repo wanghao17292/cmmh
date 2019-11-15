@@ -126,6 +126,9 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
 }
+.modules3 .left-box h5 img{
+    vertical-align: middle;
+}
 
 .modules3 .left-box p {
     width: 600px;
@@ -237,6 +240,49 @@ body {
 .modules4 .left-box a {
     color: #fff;
 }
+
+.modules4 .right-box h5 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #17ACCE;
+}
+.modules4 .right-box .mes-info{
+    margin-bottom: 20px;
+}
+.modules4 .right-box .mes-info h6{
+    font-size:18px;
+    margin-bottom:5px;
+    padding-left: 28px;
+    background: url("../../images/jyj/coordinate.png") left 2px no-repeat;
+    background-size: 22px 22px;
+}
+.modules4 .right-box .itemcom{
+    border-bottom:1px dashed #ddd;
+}
+.modules4 .right-box .item1 h6{
+    background: url("../../images/jyj/zip.png") left 2px no-repeat;
+    background-size: 22px 22px;
+}
+
+.modules4 .right-box .item2 h6{
+    background: url("../../images/jyj/tel.png") left 2px no-repeat;
+    background-size: 22px 22px;
+}
+.modules4 .right-box .mes-info p{
+    /*max-height: 264px;*/
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.modules4 .right-box .item p{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
 
 
 .modules5 .header-title {
