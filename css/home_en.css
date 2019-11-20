@@ -434,3 +434,11 @@ body {
     font-size: 12px;
     text-align: center;
 }
+
+.modules7 .con-left a{display:inline-block;  width: 43px; height: 43px;margin-right: 20px;}
+.er_code{ position: relative;}
+.show_code{display:none;position: absolute; top:-196px; left:0; padding:10px; border:1px solid #ddd; border-radius: 5px; background: #fff;}
+.con-left .show_code img  { display:block; width: 150px; height: 150px;margin-right: 0;margin-bottom:5px;}
+.er_code:hover .show_code{display: block;}
+.con-left .show_code h5{color:#333; text-align: center;}
+
